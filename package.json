@@ -1,0 +1,25 @@
+{
+  "author": "Derek Pittsinger <derekpitt@gmail.com>",
+  "name": "enis",
+  "version": "0.0.1",
+  "description": "configuration without all of the pee.",
+  "main": "lib/enis.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script",
+    "prepublish": "coffee --compile --output lib src/*.coffee; cp src/grammar.js lib/",
+    "postpublish": "rm -rf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "BSD",
+  "dependencies": {
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0",
+    "mocha": "~1.9.0",
+    "pegjs": "~0.7.0"
+  }
+}
