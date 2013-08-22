@@ -1,7 +1,7 @@
 {
   "author": "Derek Pittsinger <derekpitt@gmail.com>",
   "name": "enis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "configuration without all of the pee.",
   "main": "lib/enis.js",
   "scripts": {
